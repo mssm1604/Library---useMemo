@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 25px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.form {
+    display: flex;
+    justify-content: center
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.movies {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    width: 100% ;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.movie {
+    text-align: center;
+}
+
+.movie h3, .movie p {
+    margin: 5px 0;
+}
+
+.movie img {
+    border-radius: 24px;
+}
